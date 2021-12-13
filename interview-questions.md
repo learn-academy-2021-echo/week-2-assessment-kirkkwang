@@ -54,7 +54,7 @@ Research and define the following terms to the best of your ability.
 
 1. Class Inheritance: It is a way to extending a class and keeping previously established structors, for example if we have an Animal class, and we want to create a sub class of Cat, the Cat will have traits inherited from Animal.
 
-2. React: It is a declarative, efficient, and flexible JavaScript library for building user interfaces. React is one of the (if not most) popular JavaScript frameworks.
+2. React: It is a declarative, efficient, and flexible JavaScript library for building user interfaces. React is one of the (if not most) popular JavaScript frameworks. React was created by Facebook in 2013.
 
 3. React state: It is an instance of a React Component Class which can be defined as an object that holds information that may change over its lifetime.
 

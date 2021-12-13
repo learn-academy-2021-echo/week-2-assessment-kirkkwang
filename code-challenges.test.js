@@ -56,14 +56,14 @@ describe("return array with all words capitalized", () => {
   // Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
   it("will use .map() and logic on all values in the array", () => {
     // adding variables into the parameter since they are declared up top
-    expect(yelling(randomNouns1)).toEqual([
+    expect(capitalize(randomNouns1)).toEqual([
       "Streetlamp",
       "Potato",
       "Teeth",
       "Conclusion",
       "Nephew",
     ]);
-    expect(yelling(randomNouns2)).toEqual([
+    expect(capitalize(randomNouns2)).toEqual([
       "Temperature",
       "Database",
       "Chopsticks",
@@ -79,8 +79,9 @@ describe("return array with all words capitalized", () => {
 // use .map() to iterate over array and √
 // use charAt(0), .toUpperCase(), and .slice() in the rest of the word to make each value capitalized √
 // return array with a values capitalized √
+// at first I thought I only needed .toUpperCase() but that would have turned the entire word into all caps
 
-const yelling = (array) => {
+const capitalize = (array) => {
   return array.map((value) => value.charAt(0).toUpperCase() + value.slice(1));
 };
 
